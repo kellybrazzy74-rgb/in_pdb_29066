@@ -7,22 +7,30 @@
 
 ## Overview
 
-[In your own words: what this assignment covers — creating a PDB and a user
-inside it, creating and deleting a temporary PDB, setting up OEM, and
-documenting the process.]
+This assignment covers the practical management of Oracle Pluggable Databases. I created a PDB and a user inside it, 
+created and deleted a temporary PDB, accessed Oracle Enterprise Manager, and documented each 
+task with screenshots and explanations.
 
 ## Oracle environment used
 
-[Which Oracle edition/version you used, and where — e.g. Oracle Database
-Free, installed locally / VM / cloud. State your own setup.]
+For this assignment, I used Oracle Database 21c Express Edition (21.3.0.0.0) installed locally on my Windows 
+computer. I managed the Oracle database using SQL*Plus through the Windows Command Prompt, connecting with 
+SYS AS SYSDBA to perform the required PDB management tasks.
+
 
 ## Task 1: Create a New Pluggable Database
 
-[Describe what you did in your own words. Include the exact PDB name and
-username you created, following the required naming convention.]
 
-- **PDB name created:** [your PDB name]
-- **Username created inside PDB:** [your username]
+I created a new Pluggable Database using the required naming convention. After creating the PDB, 
+I opened it and created a database user inside the PDB. The user was created according to the 
+required username format and will be used for future class work.
+
+PDB name created: in_pdb_29066
+Username created inside PDB: ineza_plsqlauca_29066
+
+
+- **PDB name created:** in_pdb_29066
+- **Username created inside PDB:** ineza_plsqlauca_29066
 
 ### Evidence
 
@@ -31,11 +39,20 @@ username you created, following the required naming convention.]
 ![User created inside PDB](screenshots/pdb_creation/03_user_created.png)
 
 ## Task 2: Create and Delete a PDB
+What I Did
 
-[Describe what you did in your own words: creating the temporary PDB,
-verifying it exists, deleting it, and confirming it no longer exists.]
+First, I created a temporary Pluggable Database (PDB) in Oracle using a temporary PDB name. 
+After creating it, I checked the list of PDBs to verify that the new PDB was successfully 
+created and existed in the database.
 
-- **Temporary PDB name:** [your temp PDB name]
+I then deleted the temporary PDB because it was only needed for this task. After deleting it, 
+I checked the list of PDBs again to confirm that the temporary PDB was no longer available.
+
+I successfully created a temporary PDB, verified that it existed, deleted it, and 
+finally confirmed that it no longer existed in the Oracle database.
+
+
+- **Temporary PDB name:** TEMP_PDB_29066
 
 ### Evidence
 
@@ -44,7 +61,13 @@ verifying it exists, deleting it, and confirming it no longer exists.]
 
 ## Task 3: Oracle Enterprise Manager (OEM)
 
-[Describe how you accessed OEM and what the dashboard shows.]
+I accessed Oracle Enterprise Manager (OEM) through a web browser using the OEM URL 
+provided for the Oracle database environment. After logging in with my database credentials, 
+I opened the OEM dashboard.
+
+The dashboard provides an overview of the Oracle database environment. It displays information 
+such as the database status, availability, performance, storage, and other database activities. 
+This dashboard helps me monitor the database and identify any issues or changes in its performance.
 
 ### Evidence
 
@@ -52,16 +75,18 @@ verifying it exists, deleting it, and confirming it no longer exists.]
 
 ## Challenges faced and how I solved them
 
-[Your own challenges and resolutions. Leave blank or write "None" if you
-had none — don't invent problems you didn't actually have.]
+
+One challenge I experienced was having difficulty accessing the Oracle Enterprise Manager dashboard 
+at first. I resolved the issue by checking that the Oracle database services were running and then 
+refreshing the OEM page. After that, I was able to access the dashboard successfully.
 
 ## Integrity statement
-
-[Write this yourself, honestly. State whether you used any AI assistance,
-and where, and confirm the rest is your own individual work.]
+I used AI to help me understand some parts of the assignment and organize my report. However, 
+I did the practical work myself, including running the commands, testing the database, 
+and checking the results. The work submitted is my own individual work.
 
 ## Submission details
 
 - **Repository Link:** (https://github.com/kellybrazzy74-rgb/in_pdb_29066)
-- **PDB Name Created:** [PDB Name]
+- **PDB Name Created:** in_pdb_29066
 - **Issues Encountered:** [Yes/No]
