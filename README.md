@@ -62,6 +62,6 @@ and where, and confirm the rest is your own individual work.]
 
 ## Submission details
 
-- **Repository Link:** [GitHub URL]
+- **Repository Link:** (https://github.com/kellybrazzy74-rgb/in_pdb_29066)
 - **PDB Name Created:** [PDB Name]
 - **Issues Encountered:** [Yes/No]
