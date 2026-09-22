@@ -1,9 +1,9 @@
 # Oracle Pluggable Database (PDB) Management — Assignment II
 
-**Student name:** [your full name]
-**Student ID:** [your ID]
+**Student name:** Ineza RUTAYISIRE Merveille
+**Student ID:** 29066
 **Course:** Database Development with PL/SQL (INSY 8311)
-**Group:** [your group]
+**Group:** B
 
 ## Overview
 
